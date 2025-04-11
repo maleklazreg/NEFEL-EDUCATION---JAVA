@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.container {
+    text-align: center;
+    width: 800px;
+}
+
+h1 {
+    color: #333;
+}
+
+.gold {
+    margin-bottom: 20px;
+}
+
+.gold label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.gold input {
+    font-size: 18px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.activity {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 150px;
+}
+
+.activity h3 {
+    margin: 0;
+    color: #555;
+}
+
+.activity p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.log {
+    border: 1px solid #ccc;
+    height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.earned {
+    color: green;
+}
+
+.lost {
+    color: red;
+}
+
+.reset {
+    background-color: #ff4444;
+}
+
+.reset:hover {
+    background-color: #cc0000;
+}
